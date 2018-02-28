@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nebula"
+    android:orientation="vertical"
+    tools:context="machine_code.weatherup.SatelliteActivity"
+    tools:ignore="InvalidId"
+
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="RtlHardcoded">
+
+
+        <ImageView
+            android:id="@+id/iss_cam1IV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="ISSCAM1onClick"
+            android:src="@mipmap/ic_cam1"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/iss_cam1TV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80dp"
+            android:text="ISS_CAM1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <ImageView
+            android:id="@+id/iss_cam2IV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="10dp"
+            android:onClick="ISSCAM2onClick"
+            android:src="@mipmap/ic_cam2"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/iss_cam2TV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="80dp"
+            android:text="ISS_CAM2"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <ImageView
+            android:id="@+id/iss_mapIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="10dp"
+            android:onClick="ISSMAPonClick"
+            android:src="@mipmap/ic_map2d"
+            tools:ignore="ContentDescription,DuplicateIds,HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/iss_mapTV"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="208dp"
+            android:layout_marginTop="80dp"
+            android:text="ISS_Map"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/iss_map3dIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="10dp"
+            android:onClick="ISSMAP3DonClick"
+            android:src="@mipmap/ic_iss3d"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/iss_map3dTV"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="288dp"
+            android:layout_marginTop="80dp"
+            android:text="ISS_Map_3D"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/himiwari8IV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:onClick="HIMWARI8onClick"
+            android:src="@mipmap/ic_him1"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/himiwari8TV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="180dp"
+            android:text="Himwari 8"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/disaterIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="110dp"
+            android:onClick="DISASTERonClick"
+            android:src="@mipmap/mdpi"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/disaterTV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="180dp"
+            android:text="Disaster"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/fengyun4rIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="110dp"
+            android:onClick="FENGYUN4RonClick"
+            android:src="@mipmap/ic_fengyun4r"
+            tools:ignore="ContentDescription,DuplicateIds,HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/fengyun4rTV"
+            android:layout_width="82dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="198dp"
+            android:layout_marginTop="180dp"
+            android:text="Fengyun 4R"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/shiyun3IV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="110dp"
+            android:onClick="SHIYUN3onClick"
+            android:src="@mipmap/ic_shiyun3"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/shiyun3TV"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="180dp"
+            android:text="Shiyun 3"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/yunhal1IV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="210dp"
+            android:onClick="YUNHAL1onClick"
+            android:src="@mipmap/ic_yanhal1"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/yunhal1TV"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="280dp"
+            android:text="Yunhal 1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/insat3drIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginTop="210dp"
+            android:onClick="INSAT3DRonClick"
+            android:src="@mipmap/ic_insat3dr"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/insat3drTV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="280dp"
+            android:text="Insat 3DR"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:id="@+id/gpsposiIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="210dp"
+            android:onClick="GPSPOSIonClick"
+            android:src="@mipmap/ic_map2d"
+            tools:ignore="ContentDescription,DuplicateIds,HardcodedText,RtlHardcoded" />
+        <TextView
+            android:id="@+id/gpsposiTV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="206dp"
+            android:layout_marginTop="280dp"
+            android:text="GPS_Position"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+        <ImageView
+            android:id="@+id/earth2dIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="210dp"
+            android:onClick="EARTH2DonClick"
+            android:src="@drawable/ic_action_e1"
+            tools:ignore="ContentDescription,DuplicateIds,RtlHardcoded" />
+        <TextView
+            android:id="@+id/earth2dTV"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="304dp"
+            android:layout_marginTop="280dp"
+            android:text="Earth 2D"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

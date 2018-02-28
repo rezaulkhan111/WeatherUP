@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "236625505052",
+    "firebase_url": "https://weatherup-46256.firebaseio.com",
+    "project_id": "weatherup-46256",
+    "storage_bucket": "weatherup-46256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236625505052:android:988b97bc9b45e9ac",
+        "android_client_info": {
+          "package_name": "machine_code.weatherup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236625505052-t9q5k711rdhujfq0i2nd9k80rk1rrlbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "machine_code.weatherup",
+            "certificate_hash": "4e5cbcbc39b3f0819ed09a238f92d99ce1ccd1e6"
+          }
+        },
+        {
+          "client_id": "236625505052-fh7pmktnha484equdhmdff8l5u5q88e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSaipS5vFrZWqBIm0o-zeqB5VQKlDXFgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236625505052-fh7pmktnha484equdhmdff8l5u5q88e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
